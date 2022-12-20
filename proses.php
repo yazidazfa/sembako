@@ -7,9 +7,8 @@ if (isset($_POST['submit_simpan'])){
     $keluar = $_POST['keluar'];
     $masuk = $_POST['masuk'];
     $stok_awal =$_POST['stok_awal'];
-    $stok = $_POST['stok'];
     $database = new Database();
-    $database->tambah($tgl, $jenis, $merek, $keluar, $masuk, $stok_awal, $stok);
+    $database->tambah($tgl, $jenis, $merek, $keluar, $masuk, $stok_awal);
     header('location:index.php');
 }
 
@@ -26,9 +25,9 @@ if (isset($_POST['submit_edit'])){
     $merek = $_POST['merek'];
     $keluar = $_POST['keluar'];
     $masuk = $_POST['masuk'];
-    $stok = $_POST['stok'];
+    $stok_awal = $_POST['stok_awal'];
     $database = new Database();
-    $database->update($tgl, $jenis, $merek, $keluar, $masuk, $stok);
+    $database->update($tgl, $jenis, $merek, $keluar, $masuk, $stok_awal);
     header('location:index.php');
 
 }
