@@ -34,9 +34,9 @@ $data = $database->edit($id);
             <br>
             <input type="text" name="masuk" value="<?php echo $data->masuk ?>">
             <br>
-            <label>Stok</label>
+            <label>Stok Awal</label>
             <br>
-            <input type="text" name="stok" value="<?php echo $data->stok ?>">
+            <input type="text" name="stok_awal" value="<?php echo $data->stok_awal ?>">
             <br><br>
             <button type="submit" name="submit_edit">Submit</button>
         </form>
