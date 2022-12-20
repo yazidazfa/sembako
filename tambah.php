@@ -39,11 +39,6 @@
                     <td><input type="text" name="stok_awal"/></td>
                 </tr>
                 <tr>
-                    <td>Stok</td>
-                    <td>:</td>
-                    <td><input type="text" name="stok"/></td>
-                </tr>
-                <tr>
                     <td><button type="submit" name="submit_simpan">Simpan</td>
                 </tr>
             </table>
